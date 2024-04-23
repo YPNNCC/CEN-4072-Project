@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Nicky/IdeaProjects/CEN4072Project(failed)">
+    <classes>
+      <class name="SourceEditorTest">
+        <methods>
+          <include name="InsertSymbols"/>
+          <include name="closeDriver"/>
+          <include name="Login"/>
+          <include name="InsertText"/>
+        </methods>
+      </class> <!-- SourceEditorTest -->
+      <class name="VisualEditorTest">
+        <methods>
+          <include name="InsertParagraph"/>
+          <include name="InsertTitle"/>
+          <include name="closeDriver"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- VisualEditorTest -->
+    </classes>
+  </test> <!-- C:/Users/Nicky/IdeaProjects/CEN4072Project(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
